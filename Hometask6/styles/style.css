@@ -5,8 +5,8 @@ body {
 }
 
 .center {
-    padding-left: calc(50% - 1600px / 2);
-    padding-right: calc(50% - 1600px / 2);
+    padding-left: calc(50% - 1140px / 2);
+    padding-right: calc(50% - 1140px / 2);
 }
 
 a {
@@ -25,9 +25,7 @@ a {
 
 .header__logo {
     margin-top: 0;
-    margin-left: 231px;
     display: flex;
-    
     gap: 41px;
 }
 
@@ -39,7 +37,6 @@ a {
     background-color: #F1E4E6;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
 }
 
 .top__content {
