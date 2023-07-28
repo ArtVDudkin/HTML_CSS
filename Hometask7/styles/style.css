@@ -29,6 +29,7 @@ a {
 
 .header__left {
     margin-top: 0;
+    margin-left: 32px;
     display: flex;
     align-items: flex-end;
     gap: 41px;
@@ -56,10 +57,39 @@ a {
     margin-right: 42px;
 }
 
-.header__basketCounter {
+.header__basket {
+    display: flex;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.header__basketIcon {
     position: relative;
-    top: auto;
+    z-index: 0;
+    margin-right: calc(-19px /2);
+}
+
+.header__basketCounter {
+    display: flex;
+    position: relative;
     z-index: 1;
+    margin-top: calc(-19px / 2);
+}
+
+.header__basketCounterIcon {
+    position: relative;
+    z-index: 2;
+}
+
+.header__basketCounterText {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    z-index: 3;
 }
 
 .top {
