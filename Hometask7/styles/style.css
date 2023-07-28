@@ -78,7 +78,7 @@ a {
 
 .header__basketCounterIcon {
     position: relative;
-    z-index: 2;
+    z-index: 0;
 }
 
 .header__basketCounterText {
@@ -89,7 +89,8 @@ a {
     font-weight: 400;
     line-height: normal;
     position: relative;
-    z-index: 3;
+    z-index: 0;
+    margin-left: calc((-19px - 7px) / 2);
 }
 
 .top {
