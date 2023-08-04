@@ -103,6 +103,11 @@ a {
     display: flex;
 }
 
+.top__image {
+    /* max-height: 764px; */
+    width: 100%;
+}
+
 .top__label {
     padding-top: 289.9px;
     padding-left: 63.42px;
