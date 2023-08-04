@@ -96,7 +96,6 @@ a {
 .top {
     background-color: #F1E4E6;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .top__content {
