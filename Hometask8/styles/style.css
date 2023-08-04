@@ -104,7 +104,6 @@ a {
 }
 
 .top__image {
-    /* max-height: 764px; */
     width: 100%;
 }
 
@@ -482,7 +481,6 @@ a {
 
     .top__label {
         padding: 148px 56px;
-        
         height: 375px;
         display: flex;
         justify-content: center;
