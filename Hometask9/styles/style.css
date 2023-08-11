@@ -169,50 +169,6 @@ a {
     line-height: normal;
 }
   
-  
-  .menu-open .menu__body {
-    right: 0vh;
-  }
-  
-  
-.icon-menu {
-    display: block;
-    position: relative;
-    width: 1.875rem;
-    height: 1.125rem;
-    cursor: pointer;
-    z-index: 5;
-  }
-  .icon-menu span, .icon-menu::before, .icon-menu::after {
-    content: "";
-    transition: all 0.3s ease 0s;
-    right: 0;
-    position: absolute;
-    width: 100%;
-    height: 0.125rem;
-    background-color: #ffffff;
-  }
-  .icon-menu::before {
-    top: 0;
-  }
-  .icon-menu::after {
-    bottom: 0;
-  }
-  .icon-menu span {
-    top: calc(50% - 0.0625rem);
-  }
-  .menu-open .icon-menu span {
-    width: 0;
-  }
-  .menu-open .icon-menu::before {
-    top: calc(50% - 0.0625rem);
-    transform: rotate(-45deg);
-  }
-  .menu-open .icon-menu::after {
-    bottom: calc(50% - 0.0625rem);
-    transform: rotate(45deg);
-  }
-
 
 .top {
     background-color: #F1E4E6;
